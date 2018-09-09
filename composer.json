@@ -1,6 +1,6 @@
 {
   "name": "lambda",
-  "description": "utility fp library for php",
+  "description": "",
   "license": "MIT",
   "require": {
     "php": ">=7.0"
@@ -22,5 +22,19 @@
   },
   "scripts": {
     "test": "phpunit --verbose"
-  }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gerardo Munguia Hoyo",
+      "email": "gerardo.munguia.hoyo@gmail.com",
+      "homepage": "http://gmunguia.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/gmunguia/lambda"
+    }
+  ]
 }
