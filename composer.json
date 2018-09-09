@@ -1,0 +1,26 @@
+{
+  "name": "lambda",
+  "description": "utility fp library for php",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6"
+  },
+  "autoload": {
+    "psr-4": {
+      "L\\": "src/"
+    },
+    "files": [
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "L\\": "test/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit --verbose"
+  }
+}
