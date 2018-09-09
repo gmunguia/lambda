@@ -3,7 +3,8 @@
   "description": "",
   "license": "MIT",
   "require": {
-    "php": ">=7.0"
+    "php": ">=7.0",
+    "functional-php/fantasy-land": "^1"
   },
   "require-dev": {
     "phpunit/phpunit": "^6"
@@ -13,6 +14,7 @@
       "L\\": "src/"
     },
     "files": [
+      "./functions_include.php"
     ]
   },
   "autoload-dev": {
